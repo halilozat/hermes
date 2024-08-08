@@ -1,0 +1,36 @@
+/* style.css */
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #333;
+}
+
+.game-container {
+  position: relative;
+}
+
+#gameCanvas {
+  border: 1px solid #000;
+}
+
+.message-input {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.message-input input {
+  padding: 5px;
+  font-size: 16px;
+}
+
+.message-input button {
+  padding: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
